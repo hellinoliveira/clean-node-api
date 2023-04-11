@@ -34,7 +34,7 @@
     "eslint-plugin-standard": "^5.0.0",
     "faker": "^5.5.3",
     "git-commit-msg-linter": "^3.2.8",
-    "husky": "^7.0.2",
+    "husky": "^7.0.4",
     "jest": "^27.2.0",
     "lint-staged": "^11.1.2",
     "mockdate": "^3.0.5",
@@ -62,9 +62,6 @@
   "engines": {
     "node": "16.x"
   },
-  "bugs": {
-    "url": "https://github.com/rmanguinho/clean-ts-api/issues"
-  },
-  "main": "jest.config.js",
+  "main": "index.js",
   "keywords": []
 }
