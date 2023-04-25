@@ -3,7 +3,7 @@ import { badRequest } from '../helpers/http-helper'
 import { type HttpRequest } from '../protocols/https'
 import { type Controller } from './controllers'
 
-export class SignupController implements Controller {
+export class SignUpController implements Controller {
   handle (httpRequest: HttpRequest): any {
     const requiredFields = ['name', 'email', 'password', 'password_confirmation']
     for (const field of requiredFields) {
