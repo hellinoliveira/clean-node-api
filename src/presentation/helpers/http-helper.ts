@@ -1,4 +1,4 @@
-import { ServerError } from '../errors/invalid-param-error copy'
+import { ServerError } from '../errors/server-error'
 import { type HttpResponse } from '../protocols/https'
 
 export const badRequest = (error: Error): HttpResponse => {
